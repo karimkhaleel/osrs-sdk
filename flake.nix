@@ -17,6 +17,7 @@
           config.allowInsecurePredicate = _: true;
         };
 
+        packages.default = pkgs.hello;
         devShells.default = pkgs.mkShell {
           name = "default";
           buildInputs = with pkgs; [ nodejs_16 ];
