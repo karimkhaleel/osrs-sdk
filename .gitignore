@@ -109,3 +109,6 @@ typings/
 /_bundles/
 /lib/
 /lib-esm/
+
+.envrc
+.direnv
