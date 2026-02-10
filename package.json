@@ -44,7 +44,7 @@
     "webpack-dev-server": "^3.11.2"
   },
   "dependencies": {
-    "osrs-sdk": "karimkhaleel/osrs-sdk#rob-patch",
+    "osrs-sdk": "karimkhaleel/osrs-sdk#c284441d8181360df3558ea11668627b0c50ed65",
     "three": "^0.163.0"
   }
 }
