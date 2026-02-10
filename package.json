@@ -12,7 +12,8 @@
     "prettier": "npx prettier --write .",
     "start": "npx webpack serve --config webpack.dev.js",
     "watch": "npx webpack --config webpack.production.js --watch",
-    "test": "npx jest"
+    "test": "npx jest",
+    "prepare": "npm run build"
   },
   "repository": {
     "type": "git",
