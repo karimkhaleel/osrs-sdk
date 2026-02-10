@@ -110,8 +110,8 @@ export class PrayerController {
   }
 
   prayers: BasePrayer[] = [
-    new ThickSkin(),
-    new BurstOfStrength(),
+    new ProtectRange(),
+    new ProtectMage(),
     new ClarityOfThought(),
     new SharpEye(),
     new MysticWill(),
@@ -126,8 +126,8 @@ export class PrayerController {
     new SteelSkin(),
     new UltimateStrength(),
     new IncredibleReflexes(),
-    new ProtectRange(),
-    new ProtectMage(),
+    new ThickSkin(),
+    new BurstOfStrength(),
     new ProtectMelee(),
     new EagleEye(),
     new MysticMight(),
